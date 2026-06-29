@@ -331,6 +331,13 @@
             border: 1px solid #BBF7D0;
         }
 
+        /* PERBAIKAN: WA badge sekarang jadi tautan langsung */
+        .wa-badge a {
+            color: #15803D;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
         .btn-outline-gold {
             background: transparent;
             border: 2px solid var(--gold);
@@ -436,7 +443,7 @@
         }
         .modal-dialog h4 { margin-bottom: 1.5rem; }
         .modal-list { list-style: none; text-align: left; }
-        .modal-list li { margin: 1rem 0; }
+        .modal-list li { margin: 1rem 0; display: flex; align-items: center; gap: 10px; }
         .modal-list a { color: #0B0F19; font-weight: 500; text-decoration: none; }
         .close-modal {
             background: #E5E7EB;
@@ -465,9 +472,10 @@
             Ds. Tegalsari, Jabon RT 18 RW 05, Depan Masjid Nurul Huda, Mojoanyar, Mojokerto
         </div>
         <br>
-        <button class="btn-gold" onclick="openModal()">
-            <i class="fab fa-whatsapp"></i> Hubungi Kami
-        </button>
+        <!-- Tombol utama hubungi kami langsung ke WA utama (Abhira Store) -->
+        <a href="https://wa.me/6282142059393?text=Halo%20Exe%20Comp%20Group%2C%20saya%20mau%20tanya%20sparepart..." class="btn-gold" target="_blank">
+            <i class="fab fa-whatsapp"></i> Hubungi Kami Sekarang
+        </a>
     </div>
 </section>
 
@@ -515,7 +523,7 @@
                     <div class="store-icon"><i class="fas fa-laptop-code"></i></div>
                     <h3>Exe Comp</h3>
                     <p class="store-desc">Komputer, Laptop & Aksesoris</p>
-                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> Segera</div>
+                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> <span>Segera</span></div>
                 </div>
                 <a href="https://shopee.co.id/exe.comp" target="_blank" class="btn-outline-gold">🛒 Kunjungi Toko</a>
             </div>
@@ -526,7 +534,7 @@
                     <div class="store-icon"><i class="fas fa-microchip"></i></div>
                     <h3>M-tech Official</h3>
                     <p class="store-desc">Gadget & Aksesoris Premium</p>
-                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> Segera</div>
+                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> <span>Segera</span></div>
                 </div>
                 <a href="https://shopee.co.id/mtech.id" target="_blank" class="btn-outline-gold">🛒 Kunjungi Toko</a>
             </div>
@@ -537,7 +545,10 @@
                     <div class="store-icon"><i class="fas fa-mobile-alt"></i></div>
                     <h3>Abhira Store</h3>
                     <p class="store-desc">Aksesoris HP & Gadget</p>
-                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> 0821-4205-9393</div>
+                    <div class="wa-badge">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/6282142059393?text=Halo%20Abhira%20Store%2C%20saya%20mau%20tanya..." target="_blank">0821-4205-9393</a>
+                    </div>
                 </div>
                 <a href="https://shopee.co.id/abhira.store" target="_blank" class="btn-outline-gold">🛒 Kunjungi Toko</a>
             </div>
@@ -548,7 +559,10 @@
                     <div class="store-icon"><i class="fas fa-cogs"></i></div>
                     <h3>Mojo Part</h3>
                     <p class="store-desc">Sparepart HP & Tablet</p>
-                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> 0858-0608-0102</div>
+                    <div class="wa-badge">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/6285806080102?text=Halo%20Mojo%20Part%2C%20saya%20mau%20tanya%20sparepart..." target="_blank">0858-0608-0102</a>
+                    </div>
                 </div>
                 <a href="https://shopee.co.id/mojo.part" target="_blank" class="btn-outline-gold">🛒 Kunjungi Toko</a>
             </div>
@@ -559,7 +573,10 @@
                     <div class="store-icon"><i class="fas fa-tools"></i></div>
                     <h3>ESP Sparepart Phone</h3>
                     <p class="store-desc">Sparepart & Perbaikan HP</p>
-                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> 0858-0608-0108</div>
+                    <div class="wa-badge">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/6285806080108?text=Halo%20ESP%20Sparepart%2C%20saya%20mau%20tanya..." target="_blank">0858-0608-0108</a>
+                    </div>
                 </div>
                 <a href="https://shopee.co.id/esp.cell" target="_blank" class="btn-outline-gold">🛒 Kunjungi Toko</a>
             </div>
@@ -570,7 +587,10 @@
                     <div class="store-icon"><i class="fas fa-headphones"></i></div>
                     <h3>Tsaqif Phone</h3>
                     <p class="store-desc">Handphone & Aksesoris Lengkap</p>
-                    <div class="wa-badge"><i class="fab fa-whatsapp"></i> 0856-5564-9869</div>
+                    <div class="wa-badge">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/6285655649869?text=Halo%20Tsaqif%20Phone%2C%20saya%20mau%20tanya..." target="_blank">0856-5564-9869</a>
+                    </div>
                 </div>
                 <a href="https://shopee.co.id/tsaqif.phone" target="_blank" class="btn-outline-gold">🛒 Kunjungi Toko</a>
             </div>
@@ -595,24 +615,9 @@
 </footer>
 
 <!-- Floating WA (langsung ke Abhira Store) -->
-<a href="https://wa.me/6282142059393?text=Halo%20Exe%20Comp%20Group" class="floating-wa" target="_blank">
+<a href="https://wa.me/6282142059393?text=Halo%20Exe%20Comp%20Group%2C%20saya%20mau%20tanya%20stok..." class="floating-wa" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>
-
-<!-- Modal Kontak Lengkap -->
-<div class="modal" id="contactModal">
-    <div class="modal-dialog">
-        <h4><i class="fab fa-whatsapp" style="color:#25D366;"></i> Hubungi Toko Kami</h4>
-        <ul class="modal-list">
-            <li><a href="https://wa.me/6282142059393" target="_blank">Abhira Store - 0821-4205-9393</a></li>
-            <li><a href="https://wa.me/6285806080102" target="_blank">Mojo Part - 0858-0608-0102</a></li>
-            <li><a href="https://wa.me/6285655649869" target="_blank">Tsaqif Phone - 0856-5564-9869</a></li>
-            <li><a href="https://wa.me/6285806080108" target="_blank">ESP Sparepart Phone - 0858-0608-0108</a></li>
-        </ul>
-        <p style="font-size:0.9rem; color:#6B7280;">Exe Comp & M-tech Official segera</p>
-        <button class="close-modal" onclick="closeModal()">Tutup</button>
-    </div>
-</div>
 
 <script>
     function filterStores() {
@@ -626,15 +631,6 @@
         document.getElementById('searchInput').value = '';
         document.querySelectorAll('.store-card').forEach(c => c.style.display = '');
     }
-    function openModal() {
-        document.getElementById('contactModal').classList.add('active');
-    }
-    function closeModal() {
-        document.getElementById('contactModal').classList.remove('active');
-    }
-    document.getElementById('contactModal').addEventListener('click', function(e) {
-        if (e.target === this) closeModal();
-    });
 </script>
 
 </body>
